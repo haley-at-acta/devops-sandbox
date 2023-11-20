@@ -1,7 +1,7 @@
 name: lint
 on: [pull_request, push]
 jobs:
-  linting:
+  lint:
     runs-on: macos-latest
     steps:
       - name: Checkout
