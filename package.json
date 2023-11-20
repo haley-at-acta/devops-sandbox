@@ -1,0 +1,19 @@
+{
+    "name": "devops-sandbox",
+    "version": "0.0.0",
+    "description": "An environment for developing and testing DevOps tools.",
+    "scripts": {
+        "test": "NODE_ENV=test mocha './**/*.spec.ts' --require ts-node/register --exit"
+    },
+    "author": "Haley Heath",
+    "license": "ISC",
+    "dependencies": {
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.10",
+        "@types/mocha": "^10.0.4",
+        "chai": "^4.3.10",
+        "mocha": "^10.2.0"
+    }
+}
