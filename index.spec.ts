@@ -7,6 +7,6 @@ describe('factorial', () => {
   });
 
   it('should call 10', () => {
-    expect(factorial(10)).to.deep.equal(3628801);
+    expect(factorial(10)).to.deep.equal(3628800);
   });
 });
