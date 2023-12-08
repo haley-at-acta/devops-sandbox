@@ -8,7 +8,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: true,
-    tsconfigRootDir: './customer-success-web-app'
+    tsconfigRootDir: './devops-sandbox'
   },
   plugins: ['@typescript-eslint'],
   root: true,
